@@ -3,14 +3,14 @@
 }
 
 .kids-programs__content {
-    width: 60%;
+    width: 50%;
 }
 
 .kids-programs__logo {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 40%;
+    width: 50%;
 }
 
 .kids-programs__wrapper {

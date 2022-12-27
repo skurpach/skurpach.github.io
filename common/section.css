@@ -10,7 +10,7 @@ body {
     padding-top: 0;
     flex-direction: column;
     background-image: url("../img/common/section-bg.svg");
-    background-position: top;
+    background-position: center;
     background-size: auto;
     background-repeat: no-repeat;
     min-height: 100vh;

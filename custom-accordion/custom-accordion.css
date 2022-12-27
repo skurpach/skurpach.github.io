@@ -1,0 +1,22 @@
+.accordion .a-container .a-panel {
+    width: 100%;
+    color: #262626;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 0;
+    height: auto;
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 10px;
+}
+
+.accordion .a-container.active .a-panel {
+    padding: 15px 10px 10px 10px;
+    opacity: 1;
+    height: auto;
+    max-height: 700px;
+}
+
+.a-btn {
+    cursor: pointer;
+}

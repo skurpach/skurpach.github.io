@@ -1,0 +1,30 @@
+.about-us {
+    margin-top: 80px;
+}
+
+.about-us-features__container {
+    display: flex;
+}
+
+.about-us-features__title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.about-us-features__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    padding: 50px;
+}
+
+.about-us-features__content {
+    width: 40%;
+}
+
+.about-us__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

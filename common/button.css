@@ -1,0 +1,25 @@
+.button {
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    line-height: 1.35;
+    font-weight: 700;
+
+    cursor: pointer;
+
+    width: 300px;
+    height: 60px;
+    border: none;
+    border-radius: 40px;
+
+    color: #fff;
+
+    padding: 1px 12px 3px;
+    background: #cb11ab -webkit-gradient(linear, left top, right top, color-stop(0, #bf5ae0), to(#a811da));
+}
+
+.small {
+    font-size: 16px;
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+}

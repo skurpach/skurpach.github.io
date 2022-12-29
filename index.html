@@ -7,16 +7,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=EB+Garamond:ital,wght@0,600;0,700;1,400&display=swap"
           rel="stylesheet">
+    <link rel="stylesheet" href="./common/base.css">
+    <link rel="stylesheet" href="./common/input.css">
     <link rel="stylesheet" href="./common/section.css">
     <link rel="stylesheet" href="./common/button.css">
-    <link rel="stylesheet" href="./custom-accordion/custom-accordion.css">
-    <link rel="stylesheet" href="./custom-menu/custom-menu.css">
+    <link rel="stylesheet" href="./custom-accordion/styles.css">
+    <link rel="stylesheet" href="./custom-menu/styles.css">
+    <link rel="stylesheet" href="./callback-form/styles.css">
     <link rel="stylesheet" href="./about-us.css">
     <link rel="stylesheet" href="./programs.css">
     <link rel="stylesheet" href="./kids-programs.css">
     <link rel="stylesheet" href="./contacts.css">
-    <script src="./custom-menu/custom-menu.js" defer></script>
-    <script src="./custom-accordion/custom-accordion.js" defer></script>
+    <script src="./custom-menu/index.js" defer></script>
+    <script src="./custom-accordion/index.js" defer></script>
+    <script src="./callback-form/placeholder.js" defer></script>
+    <script src="./callback-form/index.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.2/axios.min.js" defer></script>
 </head>
 <body>
     <nav class="menu">
@@ -69,7 +75,7 @@
                 удовольствие от тренировок.</p>
         </div>
         <div class="about-us__wrapper">
-            <button class="button">Записаться</button>
+            <button class="button callback-link">Записаться</button>
         </div>
     </section>
     <section class="section accordion" id="programs">
@@ -123,7 +129,7 @@
                         </p>
                     </div>
                 </div>
-                <button class="button">Записаться</button>
+                <button class="button callback-link">Записаться</button>
             </div>
         </div>
         <div class="a-container section_item">
@@ -156,7 +162,7 @@
                         </p>
                     </div>
                 </div>
-                <button class="button">Записаться</button>
+                <button class="button callback-link">Записаться</button>
             </div>
         </div>
         <div class="a-container section_item">
@@ -202,7 +208,7 @@
                         </p>
                     </div>
                 </div>
-                <button class="button">Записаться</button>
+                <button class="button callback-link">Записаться</button>
             </div>
         </div>
         <div class="a-container section_item">
@@ -246,7 +252,7 @@
                         </p>
                     </div>
                 </div>
-                <button class="button">Записаться</button>
+                <button class="button callback-link">Записаться</button>
             </div>
         </div>
         <div class="a-container section_item">
@@ -289,7 +295,7 @@
                         </p>
                     </div>
                 </div>
-                <button class="button">Записаться</button>
+                <button class="button callback-link">Записаться</button>
             </div>
         </div>
         <div class="a-container section_item">
@@ -340,7 +346,7 @@
                         </p>
                     </div>
                 </div>
-                <button class="button">Записаться</button>
+                <button class="button callback-link">Записаться</button>
             </div>
         </div>
         <div class="a-container section_item">
@@ -383,7 +389,7 @@
                         </p>
                     </div>
                 </div>
-                <button class="button">Записаться</button>
+                <button class="button callback-link">Записаться</button>
             </div>
         </div>
     </section>
@@ -448,7 +454,7 @@
             </div>
         </div>
         <div class="kids-programs__wrapper">
-            <button class="button">Записаться</button>
+            <button class="button callback-link">Записаться</button>
         </div>
     </section>
     <section class="section contacts" id="contacts">
@@ -469,6 +475,25 @@
                 <a href="tel:+79264650600">+79264650600</a>
             </div>
         </div>
+    </section>
+    <section class="modal modal-callback">
+        <p class="modal-title">Оставьте свои контактные данные, чтобы записаться на занятие</p>
+        <form class="callback-form">
+            <div class="callback-content">
+                <p class="callback-form-field">
+                    <label class="visually-hidden" for="callback-name">Ваше имя</label>
+                    <input class="input callback-name" id="callback-name" type="text" name="username" placeholder="Как вас зовут?">
+                </p>
+                <p class="callback-form-field">
+                    <label class="visually-hidden" for="callback-phone">Телефон для связи</label>
+                    <input  class="input callback-name" id="callback-phone" type="tel" name="phone" data-slots="_" placeholder="+7 (___) ___-____">
+                </p>
+            </div>
+            <button class="button callback-button" type="submit">Отправить</button>
+        </form>
+        <button class="modal-close">
+            <span class="visually-hidden">Закрыть</span>
+        </button>
     </section>
 </body>
 </html>

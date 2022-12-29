@@ -1,0 +1,186 @@
+@-webkit-keyframes bounce {
+    0% {
+        transform: translateY(-2000px);
+    }
+
+    70% {
+        transform: translateY(30px);
+    }
+
+    90% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(-2000px);
+    }
+
+    70% {
+        transform: translateY(30px);
+    }
+
+    90% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@-webkit-keyframes shake {
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: translateX(-10px);
+    }
+
+    20%,
+    40%,
+    60%,
+    80% {
+        transform: translateX(10px);
+    }
+}
+
+@keyframes shake {
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: translateX(-10px);
+    }
+
+    20%,
+    40%,
+    60%,
+    80% {
+        transform: translateX(10px);
+    }
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    color: #323232;
+    background-color: #ffffff;
+    background-image: url("../img/common/section-bg.svg");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    z-index: 10;
+}
+
+.modal-show {
+    display: block;
+    animation: bounce 0.6s;
+}
+
+.modal-error {
+    animation: shake 0.6s;
+}
+
+.modal-callback {
+    top: 120px;
+    left: 50%;
+    width: 500px;
+    margin-left: -211px;
+    padding: 16px;
+    padding-left: 24px;
+    border-radius: 10px;
+}
+
+.modal-callback p {
+    padding: 0;
+    margin: 0;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.modal-close {
+    position: absolute;
+    top: 14px;
+    right: 17px;
+    width: 18px;
+    height: 18px;
+    font-size: 0;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.modal-close::before,
+.modal-close::after {
+    content: "";
+    position: absolute;
+    left: -2px;
+    width: 23px;
+    height: 2px;
+    background-color: #231f20;
+}
+
+.modal-close::before {
+    transform: rotate(45deg);
+}
+
+.modal-close::after {
+    transform: rotate(-45deg);
+}
+
+.modal-callback .callback-form-field {
+    margin-top: 17px;
+    margin-left: -3px;
+}
+
+.callback-form-field .callback-name,
+.callback-form-field .callback-email {
+    width: 254px;
+    font-size: 16px;
+}
+
+.callback-form-field .callback-message {
+    min-width: 412px;
+    max-width: 412px;
+    min-height: 138px;
+    font-size: 16px;
+    padding-top: 5px;
+    resize: none;
+}
+
+.callback-button {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    margin-right: 8px;
+    margin-left: auto;
+    margin-top: 18px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.callback-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}

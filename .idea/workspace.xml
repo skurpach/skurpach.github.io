@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc0cd2b5-eb07-4886-9c82-38864193ccb4" name="Changes" comment="feat: добавлены фото и изменен фон" />
+    <list default="true" id="fc0cd2b5-eb07-4886-9c82-38864193ccb4" name="Changes" comment="feat: добавлена форма записи">
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/skurpach.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/skurpach.github.io.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/callback-form/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/callback-form/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -60,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672162703877</updated>
       <workItem from="1672162705265" duration="56000" />
-      <workItem from="1672163137353" duration="10818000" />
+      <workItem from="1672163137353" duration="23585000" />
     </task>
     <task id="LOCAL-00001" summary="feat: MVP лэндинга школы танцев">
       <created>1672167131018</created>
@@ -104,7 +110,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672176086335</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: добавлены фото и изменен фон">
+      <created>1672176465006</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672176465006</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: добавлена форма записи">
+      <created>1672342324977</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1672342324977</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +144,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: MVP лэндинга школы танцев" />
     <MESSAGE value="feat: добавлены фото и изменен фон" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: добавлены фото и изменен фон" />
+    <MESSAGE value="feat: добавлена форма записи" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: добавлена форма записи" />
   </component>
 </project>

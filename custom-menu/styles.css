@@ -1,5 +1,9 @@
 .menu {
     background-color: #ffffff;
+    background-image: url("../img/common/section-bg.svg");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
     position: fixed;
     width: 100%;
     left: 0;

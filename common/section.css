@@ -3,10 +3,7 @@
     padding: 40px;
     padding-top: 0;
     flex-direction: column;
-    background-image: url("../img/common/section-bg.svg");
-    background-position: center;
-    background-size: auto;
-    background-repeat: no-repeat;
+    background-color: rgba(255, 192, 205, 0.1);
     min-height: 100vh;
 }
 

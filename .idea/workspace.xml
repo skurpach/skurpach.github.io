@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc0cd2b5-eb07-4886-9c82-38864193ccb4" name="Changes" comment="feat: добавлена форма записи">
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/skurpach.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/skurpach.github.io.iml" afterDir="false" />
+    <list default="true" id="fc0cd2b5-eb07-4886-9c82-38864193ccb4" name="Changes" comment="feat: добавлены фото и изменен фон">
+      <change afterPath="$PROJECT_DIR$/img/programs/air-ring.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/programs/exotic-pole-dance.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/callback-form/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/callback-form/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/callback-form/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/callback-form/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/section.css" beforeDir="false" afterPath="$PROJECT_DIR$/common/section.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/common/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/common/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +44,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/4fuzzylogic/pet-projects/skurpach.github.io/img/common",
+    "last_opened_file_path": "/Users/4fuzzylogic/pet-projects/skurpach.github.io",
     "list.type.of.created.stylesheet": "CSS",
     "vue.rearranger.settings.migration": "true"
   }
@@ -52,6 +54,8 @@
       <recent name="$PROJECT_DIR$/img/common" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/callback-form" />
+      <recent name="$PROJECT_DIR$/styles" />
       <recent name="$PROJECT_DIR$/img/programs" />
       <recent name="$PROJECT_DIR$/img/kids-programs" />
       <recent name="$PROJECT_DIR$" />
@@ -66,7 +70,8 @@
       <option name="presentableId" value="Default" />
       <updated>1672162703877</updated>
       <workItem from="1672162705265" duration="56000" />
-      <workItem from="1672163137353" duration="23585000" />
+      <workItem from="1672163137353" duration="14218000" />
+      <workItem from="1672331862076" duration="7277000" />
     </task>
     <task id="LOCAL-00001" summary="feat: MVP лэндинга школы танцев">
       <created>1672167131018</created>
@@ -117,14 +122,7 @@
       <option name="project" value="LOCAL" />
       <updated>1672176465006</updated>
     </task>
-    <task id="LOCAL-00008" summary="feat: добавлена форма записи">
-      <created>1672342324977</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1672342324977</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +142,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: MVP лэндинга школы танцев" />
     <MESSAGE value="feat: добавлены фото и изменен фон" />
-    <MESSAGE value="feat: добавлена форма записи" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: добавлена форма записи" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: добавлены фото и изменен фон" />
   </component>
 </project>

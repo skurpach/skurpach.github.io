@@ -82,7 +82,10 @@
     display: none;
     position: fixed;
     color: #323232;
-    background-color: rgba(255, 192, 205, 0.1);
+    background-color: #ffffff;
+    background-image: url("../img/common/section-bg.svg");
+    background-position: center;
+    background-size: auto;
     background-repeat: no-repeat;
     z-index: 10;
 }

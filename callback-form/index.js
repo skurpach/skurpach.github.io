@@ -1,6 +1,6 @@
 const sendToTelegram = (name, phone) => {
-    const TOKEN = '5849534541:AAEZu6JwZNULnMy_72S9qFWMz1aTEl6oHN8';
-    const CHAT_ID = '-1001770606046';
+    const TOKEN = '5810763734:AAHOE_ad4xNdIPI5DOg07MW9kIeD5Wf-CKM';
+    const CHAT_ID = '-1001878092836';
     const API_URL = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
 
     const message = `<b>Запись</b>\nИмя клиента: ${name}, Телефон: ${phone}`;

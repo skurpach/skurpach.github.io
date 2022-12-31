@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc0cd2b5-eb07-4886-9c82-38864193ccb4" name="Changes" comment="feat: добавлены фото и изменен фон">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="fc0cd2b5-eb07-4886-9c82-38864193ccb4" name="Changes" comment="feat: добавление новых разделов, доработка блока направлений">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/callback-form/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/callback-form/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -38,18 +39,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/4fuzzylogic/pet-projects/skurpach.github.io",
+    "last_opened_file_path": "/Users/4fuzzylogic/pet-projects/skurpach.github.io/img/programs",
     "list.type.of.created.stylesheet": "CSS",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img/programs" />
       <recent name="$PROJECT_DIR$/img/common" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/callback-form" />
-      <recent name="$PROJECT_DIR$/styles" />
       <recent name="$PROJECT_DIR$/img/programs" />
       <recent name="$PROJECT_DIR$/img/kids-programs" />
       <recent name="$PROJECT_DIR$" />
@@ -64,8 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672162703877</updated>
       <workItem from="1672162705265" duration="56000" />
-      <workItem from="1672163137353" duration="14218000" />
-      <workItem from="1672331862076" duration="7277000" />
+      <workItem from="1672163137353" duration="39268000" />
     </task>
     <task id="LOCAL-00001" summary="feat: MVP лэндинга школы танцев">
       <created>1672167131018</created>
@@ -116,11 +115,106 @@
       <option name="project" value="LOCAL" />
       <updated>1672176465006</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat: добавлена форма записи">
+      <created>1672342324977</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1672342324977</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: добавлена форма записи с отправкой в tg">
+      <created>1672413021428</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1672413021428</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: добавлена форма записи с отправкой в tg">
+      <created>1672413075953</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1672413075953</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: добавлена форма записи с отправкой в tg">
+      <created>1672413375980</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1672413375980</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fix: исправление замечаний">
+      <created>1672416055868</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1672416055868</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fix: исправление замечаний">
+      <created>1672416271043</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1672416271043</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fix: исправление замечаний">
+      <created>1672426498878</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1672426498878</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat: добавление новых разделов, доработка блока направлений">
+      <created>1672488631027</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1672488631027</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat: добавление новых разделов, доработка блока направлений">
+      <created>1672488732793</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1672488732793</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feat: добавление новых разделов, доработка блока направлений">
+      <created>1672489722279</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1672489722279</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feat: добавление новых разделов, доработка блока направлений">
+      <created>1672490053745</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1672490053745</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feat: добавление новых разделов, доработка блока направлений">
+      <created>1672490236992</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1672490236992</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -136,6 +230,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: MVP лэндинга школы танцев" />
     <MESSAGE value="feat: добавлены фото и изменен фон" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: добавлены фото и изменен фон" />
+    <MESSAGE value="feat: добавлена форма записи" />
+    <MESSAGE value="feat: добавлена форма записи с отправкой в tg" />
+    <MESSAGE value="fix: исправление замечаний" />
+    <MESSAGE value="feat: добавление новых разделов, доработка блока направлений" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: добавление новых разделов, доработка блока направлений" />
   </component>
 </project>

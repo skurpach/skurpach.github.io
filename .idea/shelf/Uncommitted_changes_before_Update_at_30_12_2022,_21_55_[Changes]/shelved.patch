@@ -1,0 +1,15 @@
+Index: CNAME
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>angel-dance.site
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/CNAME b/CNAME
+--- a/CNAME	(revision 295c10e2bcdcbbce6ec125ad90a532146a5819cd)
++++ b/CNAME	(date 1672426516285)
+@@ -1,1 +1,1 @@
+-angel-dance.site
+\ No newline at end of file
++angeldance.site
+\ No newline at end of file

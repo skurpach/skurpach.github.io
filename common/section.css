@@ -9,9 +9,16 @@
 
 .section-header {
     margin: 10px;
+    margin-left: 0;
     padding: 0;
     font-weight: 700;
     font-size: 46px;
+}
+
+.section-item__more-button {
+    display: none;
+    cursor: pointer;
+    margin: 0 10px;
 }
 
 .section_item {
@@ -21,33 +28,23 @@
     font-size: 20px;
 }
 
+.section-item__title-wrapper:hover .section-item__more-button {
+    display: block;
+}
+
 .section-item__title {
-    display: inline-block;
+    display: block;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     font-weight: 700;
     font-size: 30px;
+}
 
+.section-item__title-wrapper {
+    display: flex;
+    align-items: center;
 }
 
 .section ul {
     margin: 0;
 }
-
-.section li {
-    list-style: none;
-    position: relative;
-    padding: 0 0 0 20px;
-}
-
-.section ul.round li::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 6px;
-    width: 6px;
-    height: 6px;
-    background-color: #000000;
-    border-radius: 50%;
-}
-

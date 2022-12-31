@@ -1,0 +1,13 @@
+.schedule {
+    min-height: auto;
+}
+
+.schedule__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.schedule__container p {
+    font-size: 20px;
+    font-weight: 700;
+}

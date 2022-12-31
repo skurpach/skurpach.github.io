@@ -2,6 +2,10 @@
     margin-top: 80px;
 }
 
+.about-us__header {
+    text-align: center;
+}
+
 .about-us-features__container {
     display: flex;
 }

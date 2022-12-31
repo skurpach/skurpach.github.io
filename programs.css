@@ -1,4 +1,4 @@
-.programs-item {
+.programs-item__wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,16 +24,13 @@
     margin-bottom: 20px;
 }
 
-.section-item__title {
-    position: relative;
+.programs_item {
+    padding: 10px;
 }
 
-.section-item__more-button {
-    display: none;
-    position: absolute;
-    z-index: 1;
-}
-
-.section-item__title:hover .section-item__more-button {
-    display: block;
+.programs_item:hover {
+    box-shadow: 0 20px 20px rgb(0 0 0 / 40%);
+    background: rgba(248,247,244,.2);
+    border-radius: 11px;
+    transition: 0.3s;
 }
